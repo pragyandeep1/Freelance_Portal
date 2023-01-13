@@ -1,0 +1,31 @@
+#loginContainer{
+	width: 20rem;
+	margin-top: 0;
+	padding: 2rem 1.5rem;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 5px;
+	left: 50%;
+}
+
+input:required:invalid, input:focus:invalid{
+	/*background-image: url('../img/validity/invalid.png');*/
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+input:required:valid{
+	background-image: url('../img/validity/valid.png');
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+.error_message{
+	font-weight: bold;
+	color: red;
+}
+
+.success_message{
+	font-weight: bold;
+	color: green;
+}

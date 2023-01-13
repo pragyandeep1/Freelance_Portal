@@ -1,0 +1,58 @@
+/*
+Pure CSS Navigation v1.8
+by Adam Culpepper | @adamculpepper
+https://github.com/adamculpepper/pure-css-navigation
+*/
+
+/* Customizable styles */
+.navClass>ul{
+	background: #5e5d5d;
+	color: #d8d8d8;
+	font-size: 1rem;
+	font-family: sans-serif;
+}
+
+.navClass>ul>li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.4rem 2rem;
+	position: relative;
+}
+
+.navClass>ul>li:hover{
+	background: #383838;
+}
+
+ul.submenu{
+	position: relative;
+	background: #383838;
+	list-style-type: none;
+	width: 10rem;
+	padding-left: 0;
+	margin-left: -1.5rem;
+	padding-top: 0.4rem;
+	opacity: 0;
+}
+
+ul.submenu li{
+	padding-left: 1.5rem;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+}
+
+.navClass li:hover .submenu{
+	background: #383838;
+}
+
+ul.submenu li:hover{
+	color: #fff;
+	background: #656565;
+}
+/*
+multi-layer mobile nav
+https://codepen.io/tiffachoo/pen/yzZRXK
+
+
+
+try not covering the whole window - just the slide out
+*/

@@ -1,0 +1,115 @@
+	.banner{
+		height: 20rem;
+		width: 100%;
+		/*background: blue;*/
+		/*margin-top: 10rem;*/
+		padding-left: 12rem;
+		padding-right: 15rem;
+	}
+
+	input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+element.style {
+    outline: none;
+    text-shadow: none;
+}
+.u-copyBlue {
+    color: #4c83c3;
+}
+.rhythmMarginSmall {
+    margin-bottom: 6px !important;
+}
+.link_btn {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #3e76b8;
+    text-align: left;
+}
+
+.module_list.bullet li {
+    list-style: disc;
+    display: list-item;
+    margin-left: 24px;
+}
+
+.module_list.no-border>li, .module_list.no-border>.module_list_item {
+    border-bottom: none;
+}
+
+input, button, select {
+    font-family: "open sans", sans-serif;
+}
+input[type="button"], input[type="submit"], button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/*user agent stylesheet*/
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    }
+
+    .rotate {
+        transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-block;
+    /*transform: rotate(90deg);*/
+}
+.fr-container {
+    min-height: 241px;
+    display: flex;
+    flex-direction: column;
+}
+
+.module_box {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    margin: 0.1rem;
+    text-decoration: none;
+    background-color: 	#6f6f6f;
+    color: #fff;
+    }
+
+.texteditor-container { 
+    width: 44rem;
+    height: 23rem;
+}
+textarea#editor {
+    width: 32rem !important;
+    border:1px solid red;
+    
+}
+.hide{
+    display: none;
+}
+

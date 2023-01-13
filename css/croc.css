@@ -1,0 +1,188 @@
+.contact-icon {
+    z-index: 31;
+    right: 0px;
+    bottom: 0px;
+    width: 6rem;
+    /*display: none;*/
+    height: 15rem;
+    cursor: pointer;
+    position: fixed;
+}
+
+.loaded .contact-icon.active span.contact-tooltip {
+    top: 1rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+span.contact-tooltip {
+    background-color: #f6f6f6;
+    position: absolute;
+    border-radius: 3rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 1rem 0.75rem;
+    width: 6rem;
+    height: 3.5rem;
+    right: 2rem;
+    bottom: 8rem;
+    opacity: 1;
+    visibility: visible;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    transition-delay: 1s;
+}
+
+.sb4:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #f6f6f6;
+  border-top: 10px solid #f6f6f6;
+  border-bottom: 10px solid transparent;
+  right: 19px;
+  bottom: -19px;
+}
+
+.contact-icon.active img.croc-image {
+    -webkit-transform: translateX(0px) rotate(
+0deg
+);
+    transform: translateX(0px) rotate(
+0deg
+);
+}
+
+img.croc-image {
+    z-index: 3;
+    right: -10rem;
+    bottom: 1rem;
+    position: fixed;
+    -webkit-transform: translateX(100px) rotate(
+30deg
+);
+    transform: translateX(100px) rotate(
+30deg
+);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact-icon.active img.croc-image {
+    -webkit-transform: translateX(0px) rotate(
+0deg
+);
+    transform: translateX(0px) rotate(
+0deg
+);
+}
+
+.elementor a {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.loaded .contact-icon.active span.contact-tooltip {
+    top: 15px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.bubbles img{
+    width: 3rem;
+    border-radius: 5rem;
+    animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*position: absolute;*/
+    bottom: -5rem;
+    position: fixed;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    75%{
+        opacity: 1;
+    }
+
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 1.5rem;
+}
+
+.bubbles img:nth-child(2){
+    animation-delay: 3s;
+    width: 2rem;
+}
+
+.bubbles img:nth-child(3){
+    animation-delay: 1s;
+    width: 1.6rem;
+}
+
+.bubbles img:nth-child(4){
+    animation-delay: 4s;
+    width: 2.25rem;
+}
+
+.bubbles img:nth-child(5){
+    animation-delay: 5s;
+    width: 1.75rem;
+}
+
+.bubbles img:nth-child(6){
+    animation-delay: 6s;
+    width: 2.1rem;
+}
+
+.bubbles img:nth-child(7){
+    animation-delay: 7s;
+    width: 1.8rem;
+}
+
+.bubbles img:nth-child(8){
+    animation-delay: 8s;
+    width: 2.3rem;
+}

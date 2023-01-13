@@ -1,0 +1,67 @@
+.user-card{
+	height: 25rem;
+	width: 25rem;
+	margin-top: 5rem;
+	margin-left: 22rem;
+	background: #f39c12;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1rem;
+}
+
+.brand-logo{
+	height: 10rem;
+	width: 10rem;
+	position: relative;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.brand-logo-container{
+	 position: absolute;
+    border-radius: 50%;
+    background: #60a3bc;
+    padding: 0.5rem;
+     margin-top: -5rem;
+}
+
+.form-container{
+	margin-top: 100px;
+}
+
+.login-btn{
+	width: 100%;
+	background: #c0392b !important;
+	color: whitesmoke !important;
+}
+
+.login-btn: focus{
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+
+.login-container{
+	padding: 0 2rem;
+}
+
+.input-group-text{
+	font-size: 1.5rem !important;
+	background: #c0392b !important;
+	color: whitesmoke !important;
+	border: 0 !important;
+	border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input-user, .input-pass: focus{
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+	background: #c0392b !important;
+}
